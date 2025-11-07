@@ -164,7 +164,7 @@ function sumaHastaN(n) {
   for (let i=1; i<=n; i++){
     suma += 1;
   }
-  return 0;
+  return suma;
 }
 
 /**
