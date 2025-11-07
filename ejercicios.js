@@ -160,6 +160,10 @@ function factorial(n) {
  */
 function sumaHastaN(n) {
   // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
+  let suma = 0;
+  for (let i=1; i<=n; i++){
+    suma += 1;
+  }
   return 0;
 }
 
