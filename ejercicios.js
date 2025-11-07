@@ -1,6 +1,6 @@
 // FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
-// Nombre del estudiante: _________________
-// Fecha: _________________
+// Nombre del estudiante: _Heidi Esther Peña Betanzos________________
+// Fecha: _5/11/2025_______________
 
 // ============================================
 // SECCIÃ“N 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
@@ -30,11 +30,12 @@ function miInformacion() {
  */
 function operacionesBasicas(a, b) {
   // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
+  // hjhj
   
-  const suma = 0;
-  const resta = 0;
-  const multiplicacion = 0;
-  const division = 0;
+  const suma = a + b;
+  const resta = a - b;
+  const multiplicacion = a * b;
+  const division = a/b;
   
   return { suma, resta, multiplicacion, division };
 }
@@ -47,7 +48,7 @@ function operacionesBasicas(a, b) {
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
-  return 0;
+  return (base * altura)/2;
 }
 
 /**
