@@ -124,9 +124,9 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificaciÃ³n con if/else if/else
-  if(edad<18){
+  if(edad < 18){
     return "menor";
-  }else if (edad>= 64){
+  }else if (edad <= 64){
     return "adulto";
   }else {
     return "mayor";
@@ -162,7 +162,7 @@ function sumaHastaN(n) {
   // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
   let suma = 0;
   for (let i=1; i<=n; i++){
-    suma += 1;
+    suma += i;
   }
   return suma;
 }
@@ -191,6 +191,10 @@ function tablaMultiplicar(numero) {
 function numerosPares(n) {
   // TODO: Crea un array con todos los nÃºmeros pares hasta n
   const pares = [];
+  for (let i = 2; i <= n; i += 2) {
+    pares.push(i);
+    }
+  
   return pares;
 }
 
