@@ -297,7 +297,7 @@ function crearMatriz(filas, columnas) {
     }
     matriz.push(fila);
   }
-  
+
   return matriz;
 }
 
@@ -310,7 +310,14 @@ function crearMatriz(filas, columnas) {
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
-  return 0;
+ let suma = 0;
+
+  for (let i = 0; i < matriz.length; i++) {
+    for (let j = 0; j < matriz[i].length; j++) {
+      suma += matriz[i][j];
+    }
+  }
+  return suma;
 }
 
 /**
@@ -322,7 +329,8 @@ function sumaMatriz(matriz) {
  */
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
-  return [];
+  
+  return matriz[indiceFila];
 }
 
 /**
