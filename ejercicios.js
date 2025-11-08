@@ -306,7 +306,7 @@ function crearMatriz(filas, columnas) {
  * @param {Array<Array<number>>} matriz - Matriz de nÃºmeros
  * @returns {number} - Suma de todos los elementos
  * Ejemplo: sumaMatriz([[1, 2], [3, 4]]) debe retornar 10
- */
+ */ //olvide otro commit pipi
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
