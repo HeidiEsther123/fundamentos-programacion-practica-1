@@ -250,6 +250,7 @@ function encontrarMaximo(numeros) {
  */
 function filtrarMayores(numeros, limite) {
   // TODO: Crea un nuevo array con solo los nÃºmeros mayores al lÃ­mite
+  //se me olvido ponerle commit
   const mayores = [];
   for(let i = 0; i<numeros.length; i++){
     if (numeros[i] > limite){
